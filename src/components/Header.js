@@ -13,7 +13,7 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><a href="https://clients.mindbodyonline.com/LoginLaunch?studioid=256008" target="_blank">Book Now</a></li>
+                <li><a href="https://clients.mindbodyonline.com/LoginLaunch?studioid=256008" target="_blank" rel="noopener noreferrer">Book Now</a></li>
             </ul>
         </nav>
     </header>
