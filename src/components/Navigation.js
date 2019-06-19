@@ -1,12 +1,14 @@
 import React from 'react'
 
+import { Link } from 'gatsby'
+
 const Navigation = () => (
   <nav>
     <ul>
-      <li><a href="/about">About</a></li>
-      <li><a href="/faq">FAQ</a></li>
-      <li><a href="/prices">Prices</a></li>
-      <li><a href="/classes">Classes</a></li>
+      <li><Link to="/about">About</Link></li>
+      <li><Link to="/faq">FAQ</Link></li>
+      <li><Link to="/prices">Prices</Link></li>
+      <li><Link to="/classes">Classes</Link></li>
     </ul>
   </nav>
 )

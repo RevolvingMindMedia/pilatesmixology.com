@@ -1,9 +1,11 @@
 import React from 'react'
 
+import { Link } from 'gatsby'
+
 const Logo = () => (
-  <a href="/" className="logo">
+  <Link to="/" className="logo">
       <span className="icon fa-diamond"></span>
-  </a>
+  </Link>
 )
 
 export default Logo
