@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
+import logo from '../images/logo.png'
 
 const Logo = () => (
   <Link to="/" className="logo">
-      <span className="icon fa-diamond"></span>
+    <img class="icon" src={logo} alt="logo" />
   </Link>
 )
 

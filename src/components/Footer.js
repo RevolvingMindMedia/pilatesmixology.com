@@ -9,7 +9,7 @@ const Footer = (props) => (
             href="https://www.instagram.com/pilatesmixologysouthlake/"
             className="icon fa-instagram"
             target="_blank"
-            rel="norefere noopener"
+            rel="noreferrer noopener"
           >
             <span className="label">Instagram</span>
           </a>
@@ -19,7 +19,7 @@ const Footer = (props) => (
             href="https://www.facebook.com/pilatesmixologysouthlake"
             className="icon fa-facebook"
             target="_blank"
-            rel="norefere noopener"
+            rel="noreferrer noopener"
           >
             <span className="label">Facebook</span>
           </a>
@@ -29,7 +29,7 @@ const Footer = (props) => (
             href="https://twitter.com/pilatesmixology"
             className="icon fa-twitter"
             target="_blank"
-            rel="norefere noopener"
+            rel="noreferrer noopener"
           >
             <span className="label">Twitter</span>
           </a>
