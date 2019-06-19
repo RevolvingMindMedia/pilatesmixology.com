@@ -14,9 +14,10 @@
 		@include vendor('justify-content', 'center');
 		@include vendor('flex-direction', 'column');
 		position: relative;
+        width: 500px;
 		max-width: 100%;
 		z-index: 3;
-		display: none;
+        margin-top: 50px;
 
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
@@ -30,11 +31,6 @@
 			max-width: 100%;
 			background-color: transparentize(_palette(bg), 0.15);
 			border-radius: _size(border-radius);
-			opacity: 0;
-
-			&.timeout {
-				display: none;
-			}
 
 			&.active.timeout {
 				@include vendor('transform', 'translateY(0)');
@@ -105,7 +101,7 @@
 
 		@include breakpoint(xsmall) {
 			article {
-				@include padding(2rem, 1.5rem, (1rem, 0, 0.5rem, 0));
+				@include padding(2rem, 2.5rem, (1rem, 0, 0.5rem, 0));
 			}
 		}
 	}

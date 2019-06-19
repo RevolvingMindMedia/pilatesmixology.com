@@ -1,7 +1,8 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-import Header from '../components/Header'
+import Logo from '../components/Logo'
+import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 
 class IndexPage extends React.Component {
@@ -93,10 +94,19 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
-            <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
+            <header id="header">
+              <Logo />
+              <div className="content">
+                <div className="inner">
+                  <h1>Pilates Mixology</h1>
+                  <a href="https://clients.mindbodyonline.com/LoginLaunch?studioid=256008" className="button" target="_blank" rel="noopener noreferrer">Book Now</a>
+                </div>
+              </div>
+              <Navigation />
+            </header>
             <Footer timeout={this.state.timeout} />
           </div>
-          <div id="bg"></div>
+          <div id="bg-index"></div>
         </div>
       </Layout>
     )
