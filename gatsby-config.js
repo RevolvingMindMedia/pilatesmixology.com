@@ -3,7 +3,6 @@ const path = require(`path`)
 module.exports = {
   siteMetadata: {
     title: "Pilates Mixology",
-    author: "Hunter Chang",
     description: "Pilates Mixology"
   },
   plugins: [

@@ -1,6 +1,8 @@
 {
   "version": "1.0.0",
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
     "gatsby": "^2.2.9",
     "gatsby-image": "^2.1.4",
     "gatsby-plugin-manifest": "^2.0.24",
@@ -12,13 +14,10 @@
     "gatsby-transformer-sharp": "^2.1.21",
     "node-sass": "^4.11.0",
     "react": "^16.8.5",
+    "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
