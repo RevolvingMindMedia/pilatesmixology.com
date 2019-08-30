@@ -1,12 +1,23 @@
 import React from 'react'
 import Layout from '../components/layout'
-
+import Helmet from 'react-helmet'
 import bgImg from '../images/classes.jpg'
 
 class ClassesPage extends React.Component {
   render() {
+    const title = "Best Pilates Classes Near Me in Southlake | Pilates Mixology Southlake"
+    const description = `We offer 8 different Pilates classes near you in Southlake. Our exercise and workout classes involve fun, full body, group fitness workouts. Visit us!`
+    const keywords = "Pilates classes"
+
     return (
       <Layout bgImg={bgImg}>
+        <Helmet
+          title={title}
+          meta={[
+            { name: 'description', content: description },
+            { name: 'keywords', content: keywords },
+          ]}
+        />
         <article>
           <h2 className="major">Classes</h2>
           <h4>PILATES MIXOLOGY 50</h4>
